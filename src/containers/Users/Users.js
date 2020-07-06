@@ -43,7 +43,8 @@ class Users extends Component {
                             <h1>Usuários</h1>
                         </div>
                         <div className="col-2">
-                            <a href="/users/new">Novo usuário</a>
+                            
+                            <a href="/users/new"><i class="fas fa-plus"></i>Novo usuário</a>
                         </div>
                     </div>
                     <div>

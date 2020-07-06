@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Users from './containers/Users/Users';
 import NewUser from './containers/NewUser/NewUser';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 import './App.css';
 
 
@@ -17,15 +17,18 @@ class App extends Component {
         <div className="App-nav">
           <nav>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/users">Users</a></li>
+              <li><a href="/schedule"><i class="fas fa-calendar-alt"></i></a></li>
+              <li><a href="/users"><i className="fa fa-users"></i></a></li>
+              <li><a href="/options"><i className="fas fa-cog"></i></a></li>
             </ul>
           </nav>
         </div>
 
         <div className="App-body">
           <Router>
-            <Route path='/' exact render={() => <h1>Home</h1>}></Route>
+            <Route path='/' exact>
+              <Redirect to="/schedule"></Redirect>
+            </Route>
             <Route path='/users' exact render={() => <Users></Users>}></Route>
             <Route path='/users/new' exact render={() => <NewUser></NewUser>}></Route>
           </Router>
