@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Users from './containers/Users/Users';
-import NewUser from './containers/NewUser/NewUser';
+import NewUser from './pages/newUser/NewUser';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 import './App.css';
 
