@@ -2,45 +2,6 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-container {
-  display: flex;
-}
-
-.App-nav {
-  background-color:#e0dbdb;
-  min-width: 5vw;
-  min-height: 95vh;
-  text-align: center;
-  color: white;
-}
-
-.App-nav > ul > li > a {
-  color: #666;
-}
-
-.App-pages {
-  max-width: 95vw;
-  max-height: 95vh;
-}
-
-.App-header {
-  background-color:#0099cc;
-  min-width: 100vw;
-  min-height: 5vh;
-}
-
-.App-user-panel {
-  float: right;
-}
-
-.App-user-panel > li {
-  float: left;
-}
-
-.App-user-panel > li > a {
-  color: #ffffff;
-}
-
 ul {
   list-style: none;
   padding: 0;

@@ -7,7 +7,7 @@ class Users extends Component {
     state = {
         users: []
     }
-
+    
     componentDidMount () {
         Axios.get( 'https://jsonplaceholder.typicode.com/users' )
             .then( response => {

@@ -1,0 +1,10 @@
+.App-login {
+    background-color: #0099cc;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.App-login-form {
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}

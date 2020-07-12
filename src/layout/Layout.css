@@ -1,0 +1,41 @@
+.App-header {
+    background-color:#0099cc;
+    min-width: 100vw;
+    min-height: 5vh;
+}
+
+.App-toggle-menu {
+    display: none;
+    padding: 10px;
+    color: #ffffff
+}
+
+.App-user-panel {
+    float: right;
+    padding: 10px;
+}
+
+.App-user-panel > ul > li {
+    float: left;
+}
+
+.App-user-panel > ul > li > a {
+    color: #ffffff;
+}
+
+.App-content {
+    display: flex;
+    max-width: 95vw;
+    max-height: 95vh;
+}
+
+.App-page {
+    min-width: 95vw;
+    min-height: 95vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .App-toggle-menu {
+        display: inline-block;
+    }
+}

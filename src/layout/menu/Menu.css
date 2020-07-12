@@ -1,0 +1,27 @@
+.App-menu-mobile {
+    display: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.App-menu-mobile > a{
+    color: #ffffff;
+}
+
+.App-menu-mobile, .App-menu-desktop {
+    background-color:#e0dbdb;
+    min-width: 5vw;
+    min-height: 95vh;
+    text-align: center;
+    color: white;
+}
+
+.App-menu-mobile > ul > li > a, .App-menu-desktop > ul > li > a {
+    color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+    .App-menu-desktop {
+        display: none;
+    }
+}
